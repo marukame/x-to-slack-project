@@ -1,0 +1,6 @@
+# AI config - project specific (not shared)
+.mcp.json
+.claude/plans/
+.claude/projects/
+.tmp/
+.claude/settings.local.json

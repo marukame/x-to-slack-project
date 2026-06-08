@@ -1,0 +1,3 @@
+[submodule ".ai-config"]
+	path = .ai-config
+	url = https://github.com/VISIONARY-AITechnology/ai-agent-claude-code-template.git
