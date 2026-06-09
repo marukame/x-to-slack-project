@@ -1,0 +1,24 @@
+{
+  "name": "x-bookmark-to-slack",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "auth": "npx tsx scripts/auth-x.ts",
+    "test-fetch": "npx tsx scripts/test-fetch-bookmarks.ts",
+    "test-refresh": "npx tsx scripts/test-token-refresh.ts",
+    "test-slack": "npx tsx scripts/test-slack-post.ts",
+    "build": "tsc",
+    "start": "node dist/src/index.js",
+    "dev": "npx tsx src/index.ts"
+  },
+  "dependencies": {
+    "@google-cloud/firestore": "^7.11.0",
+    "dotenv": "^16.4.0"
+  },
+  "devDependencies": {
+    "typescript": "^5.7.0",
+    "tsx": "^4.19.0",
+    "@types/node": "^22.0.0"
+  }
+}
