@@ -25,7 +25,7 @@ async function main() {
 
   const testUrls = ["https://x.com/MacopeninSUTABA/status/2063456663063986368"];
 
-  const client = new SlackClient(BOT_TOKEN, CHANNEL_ID);
+  const client = new SlackClient(BOT_TOKEN!, CHANNEL_ID!);
   await client.postUrls(testUrls);
 
   console.log(`${testUrls.length} 件投稿完了 — チャンネルを確認してください`);

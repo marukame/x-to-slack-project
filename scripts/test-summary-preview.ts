@@ -31,7 +31,7 @@ const sampleTweets = [
 ];
 
 async function main() {
-  const gemini = new GeminiClient(API_KEY);
+  const gemini = new GeminiClient(API_KEY!);
 
   console.log("\n=== Slack 投稿プレビュー（実際には投稿しない） ===\n");
 
